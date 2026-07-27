@@ -7,3 +7,7 @@ As seen in fig1, a strip line consist of a central thin conducting strip of widt
 However, there are certain disadvantage of striplines in that the circuit is not accessible during development for  adjustment and tuning and also it is difficult to mount discrete and active components (like transistors, diodes, chip resistor, circulators, chip capacitors etc.)
 
 An expression for characteristic impedance (Z0) of the stripline is:
+However, there are certain disadvantage of striplines in that the circuit is not accessible during development for  adjustment and tuning and also it is difficult to mount discrete and active components (like transistors, diodes, chip resistor, circulators, chip capacitors etc.)
+ 
+Anal on the stripline is given by:
+ 
