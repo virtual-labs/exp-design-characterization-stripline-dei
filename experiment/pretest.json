@@ -1,39 +1,31 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+Pretest
+1. A transmission line is mainly used to:
+A. Store electrical energy
+B. Transfer electromagnetic energy from source to load
+C. Increase voltage only
+D. Convert AC to DC
+Answer: B
+2. The speed of an electromagnetic wave depends primarily on:
+A. Resistance only
+B. Permittivity and permeability of the medium
+C. Current only
+D. Voltage only
+Answer: B
+3. Which material is commonly used as a dielectric in transmission lines?
+A. Copper
+B. Air, PTFE, or FR-4
+C. Iron
+D. Aluminum
+Answer: B
+4. Which parameter increases with increasing frequency in microwave circuits?
+A. Wavelength decreases
+B. Wavelength increases
+C. Resistance becomes zero
+D. Velocity becomes infinite
+Answer: A
+5. A stripline is classified as a:
+A. Lumped-element circuit
+B. Transmission line
+C. DC circuit
+D. Power supply
+Answer: B
