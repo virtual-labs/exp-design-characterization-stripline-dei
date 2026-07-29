@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. A stripline consists of a conductor placed:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Above a ground plane only",
+        "b": "Between two parallel ground planes",
+        "c": "Inside a coaxial cable",
+        "d": "On the outer surface of a dielectric"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. This describes a microstrip configuration rather than a stripline.",
+        "b": "Correct. A stripline consists of a conductor embedded between two parallel ground planes.",
+        "c": "Incorrect. A stripline is a planar transmission line, not a coaxial cable.",
+        "d": "Incorrect. The conductor is embedded within the dielectric, not on its outer surface."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The dielectric in a stripline surrounds the conductor:",
+      "answers": {
+        "a": "Only above the conductor",
+        "b": "Only below the conductor",
+        "c": "Completely",
+        "d": "Not at all"
+      },
+      "explanations": {
+        "a": "Incorrect. The dielectric is not present only above the conductor.",
+        "b": "Incorrect. The dielectric is not present only below the conductor.",
+        "c": "Correct. In a stripline, the conductor is completely surrounded by dielectric material.",
+        "d": "Incorrect. A stripline always contains dielectric material around the conductor."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Compared with a microstrip line, a stripline has:",
+      "answers": {
+        "a": "Higher radiation losses",
+        "b": "Lower radiation losses",
+        "c": "No dielectric material",
+        "d": "Higher conductor exposure"
+      },
+      "explanations": {
+        "a": "Incorrect. Stripline generally has lower radiation losses.",
+        "b": "Correct. Since the conductor is enclosed by dielectric and ground planes, stripline has lower radiation losses than a microstrip line.",
+        "c": "Incorrect. Stripline contains dielectric material.",
+        "d": "Incorrect. The conductor is enclosed and not exposed."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The characteristic impedance of a stripline mainly depends on:",
+      "answers": {
+        "a": "Conductor width and dielectric thickness",
+        "b": "Supply voltage only",
+        "c": "Load resistance only",
+        "d": "Frequency only"
+      },
+      "explanations": {
+        "a": "Correct. The characteristic impedance is mainly determined by the conductor width, dielectric thickness, and dielectric constant.",
+        "b": "Incorrect. Supply voltage does not determine characteristic impedance.",
+        "c": "Incorrect. Load resistance does not determine the stripline impedance.",
+        "d": "Incorrect. Frequency alone does not determine the characteristic impedance."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "5. Stripline is widely used in:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Microwave integrated circuits",
+        "b": "DC power supplies",
+        "c": "Audio amplifiers",
+        "d": "Transformers"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. Stripline is widely used in microwave integrated circuits and high-frequency communication systems.",
+        "b": "Incorrect. Stripline is not used in DC power supplies.",
+        "c": "Incorrect. Audio amplifiers operate at much lower frequencies.",
+        "d": "Incorrect. Transformers do not use stripline transmission structures."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
