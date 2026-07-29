@@ -1,31 +1,90 @@
-Pretest
-1. A transmission line is mainly used to:
-A. Store electrical energy
-B. Transfer electromagnetic energy from source to load
-C. Increase voltage only
-D. Convert AC to DC
-Answer: B
-2. The speed of an electromagnetic wave depends primarily on:
-A. Resistance only
-B. Permittivity and permeability of the medium
-C. Current only
-D. Voltage only
-Answer: B
-3. Which material is commonly used as a dielectric in transmission lines?
-A. Copper
-B. Air, PTFE, or FR-4
-C. Iron
-D. Aluminum
-Answer: B
-4. Which parameter increases with increasing frequency in microwave circuits?
-A. Wavelength decreases
-B. Wavelength increases
-C. Resistance becomes zero
-D. Velocity becomes infinite
-Answer: A
-5. A stripline is classified as a:
-A. Lumped-element circuit
-B. Transmission line
-C. DC circuit
-D. Power supply
-Answer: B
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A transmission line is mainly used to:",
+      "answers": {
+        "a": "Store electrical energy",
+        "b": "Transfer electromagnetic energy from source to load",
+        "c": "Increase voltage only",
+        "d": "Convert AC to DC"
+      },
+      "explanations": {
+        "a": "Incorrect. A transmission line is not primarily used to store electrical energy.",
+        "b": "Correct. A transmission line transfers electromagnetic energy efficiently from the source to the load.",
+        "c": "Incorrect. A transmission line does not function solely to increase voltage.",
+        "d": "Incorrect. Converting AC to DC is the function of a rectifier, not a transmission line."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The speed of an electromagnetic wave depends primarily on:",
+      "answers": {
+        "a": "Resistance only",
+        "b": "Permittivity and permeability of the medium",
+        "c": "Current only",
+        "d": "Voltage only"
+      },
+      "explanations": {
+        "a": "Incorrect. Resistance does not determine the propagation speed of electromagnetic waves.",
+        "b": "Correct. The propagation speed depends on the permittivity and permeability of the medium.",
+        "c": "Incorrect. Current does not determine wave propagation speed.",
+        "d": "Incorrect. Voltage does not determine the speed of electromagnetic waves."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which material is commonly used as a dielectric in transmission lines?",
+      "answers": {
+        "a": "Copper",
+        "b": "Air, PTFE, or FR-4",
+        "c": "Iron",
+        "d": "Aluminum"
+      },
+      "explanations": {
+        "a": "Incorrect. Copper is a conductor, not a dielectric.",
+        "b": "Correct. Air, PTFE, and FR-4 are commonly used dielectric materials in transmission lines.",
+        "c": "Incorrect. Iron is not commonly used as a dielectric.",
+        "d": "Incorrect. Aluminum is a conductor, not a dielectric."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which parameter increases with increasing frequency in microwave circuits?",
+      "answers": {
+        "a": "Wavelength decreases",
+        "b": "Wavelength increases",
+        "c": "Resistance becomes zero",
+        "d": "Velocity becomes infinite"
+      },
+      "explanations": {
+        "a": "Correct. As frequency increases, the wavelength decreases because wavelength is inversely proportional to frequency.",
+        "b": "Incorrect. Wavelength decreases rather than increases with increasing frequency.",
+        "c": "Incorrect. Resistance does not become zero with increasing frequency.",
+        "d": "Incorrect. Wave velocity remains determined by the propagation medium."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. A stripline is classified as a:",
+      "answers": {
+        "a": "Lumped-element circuit",
+        "b": "Transmission line",
+        "c": "DC circuit",
+        "d": "Power supply"
+      },
+      "explanations": {
+        "a": "Incorrect. A stripline is a distributed transmission structure, not a lumped-element circuit.",
+        "b": "Correct. A stripline is a type of transmission line used in microwave circuits.",
+        "c": "Incorrect. A stripline is not a DC circuit.",
+        "d": "Incorrect. A stripline is not a power supply."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
