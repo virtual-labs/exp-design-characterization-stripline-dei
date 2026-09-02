@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. A transmission line is mainly used to:",
+      "question": "Q1. A transmission line is mainly used to:",
       "answers": {
         "a": "Store electrical energy",
         "b": "Transfer electromagnetic energy from source to load",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. The speed of an electromagnetic wave depends primarily on:",
+      "question": "Q2. The speed of an electromagnetic wave depends primarily on:",
       "answers": {
         "a": "Resistance only",
         "b": "Permittivity and permeability of the medium",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3. Which material is commonly used as a dielectric in transmission lines?",
+      "question": "Q3. Which material is commonly used as a dielectric in transmission lines?",
       "answers": {
         "a": "Copper",
         "b": "Air, PTFE, or FR-4",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4. Which parameter increases with increasing frequency in microwave circuits?",
+      "question": "Q4. Which parameter increases with increasing frequency in microwave circuits?",
       "answers": {
         "a": "Wavelength decreases",
         "b": "Wavelength increases",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "5. A stripline is classified as a:",
+      "question": "Q5. A stripline is classified as a:",
       "answers": {
         "a": "Lumped-element circuit",
         "b": "Transmission line",

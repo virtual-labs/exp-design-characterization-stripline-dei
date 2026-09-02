@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. A stripline consists of a conductor placed:",
+      "question": "Q1. A stripline consists of a conductor placed:",
       "answers": {
         "a": "Above a ground plane only",
         "b": "Between two parallel ground planes",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. The dielectric in a stripline surrounds the conductor:",
+      "question": "Q2. The dielectric in a stripline surrounds the conductor:",
       "answers": {
         "a": "Only above the conductor",
         "b": "Only below the conductor",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3. Compared with a microstrip line, a stripline has:",
+      "question": "Q3. Compared with a microstrip line, a stripline has:",
       "answers": {
         "a": "Higher radiation losses",
         "b": "Lower radiation losses",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4. The characteristic impedance of a stripline mainly depends on:",
+      "question": "Q4. The characteristic impedance of a stripline mainly depends on:",
       "answers": {
         "a": "Conductor width and dielectric thickness",
         "b": "Supply voltage only",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "5. Stripline is widely used in:",
+      "question": "Q5. Stripline is widely used in:",
       "answers": {
         "a": "Microwave integrated circuits",
         "b": "DC power supplies",
