@@ -22,6 +22,22 @@ However, there are certain disadvantage of striplines in that the circuit is not
 
 An expression for characteristic impedance (Z0) of the stripline is:
 
+<p align="center">
+ <img src="./images/strip_image006.gif" alt="expression">
+</p>
+
+ 
+ Width of the stripline can be calculated by:
+ 
+ <p align="center">
+<img src="./images/strip_image008.gif" alt="expression">
+</p>
+  
  
 Anal on the stripline is given by:
+
+<p align="center">
+    <img src="./images/strip_image010.gif" alt="expression">
+</p>
+
  
